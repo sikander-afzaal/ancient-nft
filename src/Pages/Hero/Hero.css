@@ -1,0 +1,10 @@
+.hero {
+  margin-top: 132px;
+  height: auto;
+  width: 100%;
+}
+.heroImg {
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+}
