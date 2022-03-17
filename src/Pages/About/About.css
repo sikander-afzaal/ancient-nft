@@ -6,6 +6,7 @@
   width: 100%;
   gap: 7rem;
   padding: 4rem 0rem;
+  overflow-x: hidden;
 }
 .heading-div {
   display: flex;

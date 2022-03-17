@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Faq.css";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 function Faq() {
   const [open, setOpen] = useState([false, false, false, false, false]);
 
@@ -20,10 +22,15 @@ function Faq() {
   };
   return (
     <div className="faq">
-      <div className="heading-div">
+      <ScrollAnimation
+        duration={1.5}
+        animateOnce={true}
+        className="heading-div"
+        animateIn="animate__slideInDown"
+      >
         <h1 className="heading">Frequently Asked Questions</h1>
         <p>Let’s checkout answers of your questions</p>
-      </div>
+      </ScrollAnimation>
       <div className="faq-div">
         <div className="faq-q-div">
           <div

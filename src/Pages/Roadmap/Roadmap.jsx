@@ -1,15 +1,27 @@
 import React from "react";
 import "./Roadmap.css";
 import img from "../../Assets/roadmap-img.png";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 function Roadmap() {
   return (
     <div className="roadmap">
-      <div className="heading-div">
+      <ScrollAnimation
+        duration={1.5}
+        animateOnce={true}
+        className="heading-div"
+        animateIn="animate__slideInDown"
+      >
         <h1 className="heading">Roadmap</h1>
         <p>Deep dive into our roadmap</p>
-      </div>
+      </ScrollAnimation>
       <div className="roadmap-div">
-        <div className="left-grid">
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="left-grid"
+          animateIn="animate__slideInLeft"
+        >
           <div className="top-grid-text">
             <h1>Stop 1</h1>
             <div className="text"></div>
@@ -43,7 +55,8 @@ function Roadmap() {
               so the community decides to which organisation should we give
             </li>
           </ul>
-        </div>
+        </ScrollAnimation>
+
         <div className="center-grid center1">
           <img src={img} className="sign" alt="" />
           <div className="line"></div>
@@ -54,7 +67,13 @@ function Roadmap() {
           <img src={img} className="sign" alt="" />
           <div className="line"></div>
         </div>
-        <div className="right-grid">
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="right-grid"
+          animateIn="animate__slideInRight"
+        >
+          {" "}
           <div className="top-grid-text">
             <h1>Stop 2</h1>
             <p>Let's feed on the weak.⚰️</p>
@@ -66,9 +85,14 @@ function Roadmap() {
             will be used in form of giveaways, Collabs and marketing use to help
             grow our popularity ⚰️
           </p>
-        </div>
-
-        <div className="left-grid">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="left-grid"
+          animateIn="animate__slideInLeft"
+        >
+          {" "}
           <div className="top-grid-text">
             <h1>Stop 3</h1>
             <p>Gift the Gods</p>
@@ -80,7 +104,8 @@ function Roadmap() {
             legendary God's minted earning god coin as a passive weekly
             income..This will happen in May 2022 a month after minting
           </p>
-        </div>
+        </ScrollAnimation>
+
         <div className="center-grid center3">
           <img src={img} className="sign" alt="" />
           <div className="line"></div>
@@ -91,8 +116,13 @@ function Roadmap() {
           <img src={img} className="sign" alt="" />
           <div className="line"></div>
         </div>
-
-        <div className="right-grid">
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="right-grid"
+          animateIn="animate__slideInRight"
+        >
+          {" "}
           <div className="top-grid-text">
             <h1>Stop 4</h1>
             <p>Let the games begin</p>
@@ -108,8 +138,14 @@ function Roadmap() {
             playstore. Outsiders will have to pay to play and holders can list
             there gods in game and sell it to others for god coin
           </p>
-        </div>
-        <div className="left-grid">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="left-grid"
+          animateIn="animate__slideInLeft"
+        >
+          {" "}
           <div className="top-grid-text">
             <h1>Stop 5</h1>
             <p>Pharaoh God's DAO</p>
@@ -118,8 +154,8 @@ function Roadmap() {
             As we believe that the power is in the hands of the people we will
             launch our DAO dapp where all gods get to vote on project decisions
             and much more to get eveyone involved and shape our future together
-          </p>
-        </div>
+          </p>{" "}
+        </ScrollAnimation>
 
         <div className="center-grid center5">
           <img src={img} className="sign" alt="" />
@@ -131,7 +167,13 @@ function Roadmap() {
         <div className="center-grid center6">
           <img src={img} className="sign" alt="" />
         </div>
-        <div className="right-grid">
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="right-grid"
+          animateIn="animate__slideInRight"
+        >
+          {" "}
           <div className="top-grid-text">
             <h1>Stop 6</h1>
             <p>God’s marketplace</p>
@@ -144,7 +186,7 @@ function Roadmap() {
             our store where all transactions are done using our native token god
             coin to increase coin usage and awareness
           </p>
-        </div>
+        </ScrollAnimation>
       </div>
     </div>
   );

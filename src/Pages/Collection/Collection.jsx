@@ -4,6 +4,8 @@ import bg from "../../Assets/collection-line.png";
 import nft from "../../Assets/nft-img.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 function Collection() {
   const data = {
     list1: [
@@ -40,10 +42,15 @@ function Collection() {
   return (
     <div className="collection">
       <img className="line-bg" src={bg} alt="" />
-      <div className="heading-div">
+      <ScrollAnimation
+        duration={1.5}
+        animateOnce={true}
+        className="heading-div"
+        animateIn="animate__slideInDown"
+      >
         <h1 className="heading">Pharaoh Collection</h1>
         <p>Welcome to the Pharaoh God’s Club Collections</p>
-      </div>
+      </ScrollAnimation>
       <div className="slide-div">
         <h1 className="slide-head"> ( Male Pharaoh God )</h1>
         <Splide

@@ -1,15 +1,30 @@
 import React from "react";
 import "./About.css";
 import img from "../../Assets/about.png";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
+
 function About() {
   return (
     <div className="about">
-      <div className="top-about">
+      <ScrollAnimation
+        animatePreScroll={false}
+        duration={1.5}
+        animateOnce={true}
+        className="top-about"
+        animateIn="animate__slideInDown"
+      >
         <h1 className="heading">About Us</h1>
         <p>Our main motive and goal you all may need to know about</p>
-      </div>
+      </ScrollAnimation>
       <div className="bot-about">
-        <div className="left-about">
+        <ScrollAnimation
+          animatePreScroll={false}
+          duration={1.5}
+          animateOnce={true}
+          className="left-about"
+          animateIn="animate__slideInLeft"
+        >
           <div className="wrapper-about">
             <h1 className="heading">What is Pharaoh God’s club</h1>
             <div className="text-div-about">
@@ -33,10 +48,16 @@ function About() {
               Collection
             </p>
           </div>
-        </div>
-        <div className="right-about">
+        </ScrollAnimation>
+        <ScrollAnimation
+          animatePreScroll={false}
+          duration={1.5}
+          animateOnce={true}
+          className="right-about"
+          animateIn="animate__slideInRight"
+        >
           <img src={img} alt="" />
-        </div>
+        </ScrollAnimation>
       </div>
     </div>
   );
