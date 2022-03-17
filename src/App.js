@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Roadmap from "./Pages/Roadmap/Roadmap";
 import Collection from "./Pages/Collection/Collection";
 import Team from "./Pages/Team/Team";
+import Faq from "./Pages/Faq/Faq";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Roadmap />
       <Collection />
       <Team />
+      <Faq />
     </div>
   );
 }

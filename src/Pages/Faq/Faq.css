@@ -1,0 +1,110 @@
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 5rem;
+  padding: 2rem 0rem;
+}
+.faq-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.faq-q-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+}
+.faq-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border-top: 15px;
+  cursor: pointer;
+  gap: 2rem;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+.faq-btn p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  pointer-events: none;
+  text-align: left;
+  padding: 1rem 0rem;
+  color: #fff8e7;
+  font-family: var(--poppins);
+  font-weight: 600;
+}
+.faq-answer {
+  transition: all 0.3s ease-in-out;
+  padding-inline: 0rem;
+  max-height: 0px;
+  overflow-y: hidden;
+  color: #fff8e7;
+  width: 100%;
+}
+.answer {
+  font-size: 1.3rem;
+  text-align: left;
+  font-family: var(--poppins);
+  font-weight: 400;
+  line-height: 1.4;
+}
+.active {
+  padding: 1.5rem 0;
+  max-height: 600px;
+  overflow-y: visible;
+}
+.active-btn {
+  color: white;
+}
+.arrow2 {
+  line-height: 0.8;
+  font-size: 3.7rem;
+  font-family: var(--amita);
+  background: linear-gradient(91.14deg, #fbda37 -117.28%, #fce5ab 99.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.active2 {
+  transform: rotate(45deg);
+}
+@media screen and (max-width: 1160px) {
+  .faq-q-div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 788px) {
+  .faq {
+    padding: 2rem 3rem;
+  }
+  .faq .heading-div .heading {
+    font-size: 2rem;
+  }
+  .faq-q-div {
+    width: 100%;
+  }
+  .faq-btn p {
+    font-size: 1.1rem;
+  }
+  .answer {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 532px) {
+  .faq {
+    padding: 2rem;
+  }
+  .faq .heading-div .heading {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+}

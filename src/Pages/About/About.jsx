@@ -4,7 +4,7 @@ import img from "../../Assets/about.png";
 function About() {
   return (
     <div className="about">
-      <div className="heading-div">
+      <div className="top-about">
         <h1 className="heading">About Us</h1>
         <p>Our main motive and goal you all may need to know about</p>
       </div>
