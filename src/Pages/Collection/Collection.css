@@ -1,0 +1,101 @@
+.collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0rem;
+  width: 100%;
+  margin-top: 3rem;
+  overflow-x: hidden;
+}
+.line-bg {
+  max-width: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.slide-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0rem;
+  gap: 2rem;
+  width: 100%;
+}
+.slide-head {
+  margin-bottom: 1rem;
+  font-size: 2.7rem;
+  font-family: var(--amita);
+  background: linear-gradient(91.14deg, #fbda37 -117.28%, #fce5ab 99.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nft-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  gap: 3rem;
+  padding: 2rem 0rem;
+  flex-direction: column;
+  margin: auto;
+  border-width: 3px;
+  border-style: solid;
+  position: relative;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    91.14deg,
+    #fbda37 -117.28%,
+    #fce5ab 99.18%
+  );
+}
+
+.nft-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.nft-box p {
+  color: #fff8e7;
+  font-family: var(--roboto);
+  font-weight: 600;
+  font-size: 2rem;
+}
+.splide__pagination__page {
+  border-radius: 25px !important;
+  height: 3px !important;
+  margin: 6px !important;
+  opacity: 1 !important;
+  width: 30px !important;
+}
+.splide__pagination__page.is-active {
+  background: #fbda37 !important;
+  transform: scale(1.2) !important;
+}
+.splide__pagination {
+  bottom: -3.5em !important;
+}
+@media screen and (max-width: 578px) {
+  .collection .heading-div .heading {
+    font-size: 2.5rem !important;
+  }
+}
+@media screen and (max-width: 488px) {
+  .slide-head {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 462px) {
+  .splide__pagination {
+    padding: 0px !important;
+    width: 100% !important;
+  }
+  .splide__pagination__page {
+    width: 24px !important;
+  }
+}
+@media screen and (max-width: 388px) {
+  .collection .heading-div .heading {
+    font-size: 2.2rem !important;
+  }
+}

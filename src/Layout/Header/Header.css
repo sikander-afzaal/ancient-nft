@@ -29,7 +29,7 @@ nav {
   gap: 30px;
 }
 .nav-links {
-  color: white;
+  color: #fff8e7;
   text-decoration: none;
   font-size: 1.12rem;
   transition: all 0.25s ease-in-out;
@@ -47,23 +47,19 @@ nav {
 }
 .whitepaper {
   background-color: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #fff8e7;
+  color: #fff8e7;
+  height: 64px;
+  width: 200px;
+  font-family: var(--poppins);
+  font-weight: 700;
 }
-.mint-tick {
-  color: #211f23;
-  background-color: white;
-  border: 2px solid transparent;
-}
+
 .whitepaper:hover {
   color: #211f23;
   background-color: white;
 }
-.mint-tick:hover {
-  background-color: transparent;
-  border-color: white;
-  color: white;
-}
+
 .header-social {
   font-size: 1.5rem;
   transition: all 0.25s ease-in-out;
@@ -109,10 +105,7 @@ nav {
     padding-inline: 10px;
   }
 }
-@media screen and (max-width: 1046px) {
-  .black {
-    background-color: inherit;
-  }
+@media screen and (max-width: 1146px) {
   .mobile {
     display: block;
     font-size: 1.4rem;

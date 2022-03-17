@@ -12,7 +12,10 @@ function Roadmap() {
         <div className="left-grid">
           <div className="top-grid-text">
             <h1>Stop 1</h1>
-            <p>Awakening the pharaohs ⚰️</p>
+            <div className="text"></div>
+            <p>
+              Awakening the pharaohs <span>⚰️</span>
+            </p>
           </div>
           <ul>
             <li>Pharaoh gods club will be launching in april 2022</li>

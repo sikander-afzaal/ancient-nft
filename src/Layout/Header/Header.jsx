@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import openSea from "../../Assets/openSea.svg";
+import twitter from "../../Assets/twitter.svg";
+import discord from "../../Assets/discord.svg";
 function Header() {
   // to open navbar in mobile view
   const [open, setOpen] = useState(false);
@@ -89,8 +91,8 @@ function Header() {
           </a>
         </nav>
         <div className="social-header">
-          <FontAwesomeIcon className="header-social" icon={faDiscord} />
-          <FontAwesomeIcon className="header-social" icon={faTwitter} />
+          <img src={discord} alt="" className="header-social" />
+          <img src={twitter} alt="" className="header-social" />
           <img src={openSea} alt="" className="header-social" />
         </div>
         <a
