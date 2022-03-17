@@ -7,7 +7,7 @@
   gap: 7rem;
   padding: 4rem 0rem;
 }
-.top-about {
+.heading-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.top-about p {
+.heading-div p {
   color: #6c5e5fb2;
   font-family: var(--poppins);
   font-weight: 500;
@@ -126,10 +126,10 @@
   }
 }
 @media screen and (max-width: 524px) {
-  .top-about {
+  .heading-div {
     padding: 0rem 1rem;
   }
-  .top-about p {
+  .heading-div p {
     text-align: center;
     font-size: 0.8rem;
   }
