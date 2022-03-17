@@ -21,7 +21,7 @@ function Faq() {
     });
   };
   return (
-    <div className="faq">
+    <div id="faq" className="faq">
       <ScrollAnimation
         duration={1.5}
         animateOnce={true}

@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <ScrollAnimation
         animatePreScroll={false}
         duration={1.5}

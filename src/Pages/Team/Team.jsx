@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import img from "../../Assets/nft-img.png";
 function Team() {
   return (
-    <div className="team">
+    <div id="team" className="team">
       <ScrollAnimation
         duration={1.5}
         animateOnce={true}

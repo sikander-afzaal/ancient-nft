@@ -5,7 +5,7 @@ import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
 function Roadmap() {
   return (
-    <div className="roadmap">
+    <div id="roadmap" className="roadmap">
       <ScrollAnimation
         duration={1.5}
         animateOnce={true}

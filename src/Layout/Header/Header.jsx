@@ -44,7 +44,7 @@ function Header() {
               setOpen(false);
               document.querySelector("body").classList.remove("overflow");
             }}
-            href="/#hero"
+            href="#about"
             className="nav-links"
           >
             About Us
@@ -54,7 +54,7 @@ function Header() {
               setOpen(false);
               document.querySelector("body").classList.remove("overflow");
             }}
-            href="/#bene"
+            href="#roadmap"
             className="nav-links"
           >
             RoadMap
@@ -64,7 +64,7 @@ function Header() {
               setOpen(false);
               document.querySelector("body").classList.remove("overflow");
             }}
-            href="/#roadmap"
+            href="#collection"
             className="nav-links"
           >
             Collection
@@ -74,7 +74,7 @@ function Header() {
               setOpen(false);
               document.querySelector("body").classList.remove("overflow");
             }}
-            href="/"
+            href="#team"
             className="nav-links"
           >
             Team
@@ -84,7 +84,7 @@ function Header() {
               setOpen(false);
               document.querySelector("body").classList.remove("overflow");
             }}
-            href="/"
+            href="#faq"
             className="nav-links"
           >
             FAQ

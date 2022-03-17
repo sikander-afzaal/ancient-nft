@@ -11,3 +11,6 @@ body {
   --roboto: "Roboto";
   --amita: "Amita";
 }
+html {
+  scroll-behavior: smooth;
+}

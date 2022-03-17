@@ -40,7 +40,7 @@ function Collection() {
     ],
   };
   return (
-    <div className="collection">
+    <div id="collection" className="collection">
       <img className="line-bg" src={bg} alt="" />
       <ScrollAnimation
         duration={1.5}
