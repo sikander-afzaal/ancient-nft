@@ -7,6 +7,9 @@
   padding: 2rem 6rem;
   height: auto;
   gap: 6rem;
+  background-image: url("../../Assets/roadmap-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .roadmap-div {
   display: grid;
