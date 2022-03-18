@@ -8,6 +8,12 @@
   padding: 0rem 2rem;
   max-width: 1800px;
 }
+@media screen and (min-width: 1800px) {
+  .header {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 .header-left,
 .header-right {
   display: flex;
