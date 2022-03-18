@@ -28,26 +28,62 @@ function Roadmap() {
               Awakening the pharaohs <span>⚰️</span>
             </p>
           </ScrollAnimation>
-          <ScrollAnimation
-            duration={0.75}
-            delay={800}
-            animateOnce={true}
-            animateIn="animate__fadeIn"
-          >
-            <ul>
+
+          <ul>
+            <ScrollAnimation
+              duration={0.75}
+              delay={800}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>Pharaoh gods club will be launching in april 2022</li>
+            </ScrollAnimation>
+            <ScrollAnimation
+              duration={0.75}
+              delay={900}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>5,555 unique PGC gods will be joined into this journey</li>
+            </ScrollAnimation>
+            <ScrollAnimation
+              duration={0.75}
+              delay={1000}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>
                 1500 will be a whitelist mint for early supporters and OG'S
                 minting at a lower price
               </li>
+            </ScrollAnimation>
+            <ScrollAnimation
+              duration={0.75}
+              delay={1100}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>
                 4000 will be available for Public mint 48 hours after WL sale
               </li>
+            </ScrollAnimation>
+            <ScrollAnimation
+              duration={0.75}
+              delay={1200}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>
                 72 hours after public sale, the mystery of the pharaohs will be
                 revealed
               </li>
+            </ScrollAnimation>
+            <ScrollAnimation
+              duration={0.75}
+              delay={1300}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>
                 We have 20 legendary God's those who mint one of the gods will
                 enter a free trip and ticket for 2 raffle to visit the land of
@@ -55,24 +91,43 @@ function Roadmap() {
                 there's to build in our onchain game and stacking feature.{" "}
                 <span>⚰️</span>
               </li>
+            </ScrollAnimation>
+            <ScrollAnimation
+              duration={0.75}
+              delay={1400}
+              animateOnce={true}
+              animateIn="animate__fadeInDown"
+            >
               <li>
                 5% of mint sales will be given to a charity that helps affected
                 people in Ukraine due to war, this will be done in a voting
                 manner so the community decides to which organisation should we
                 give
               </li>
-            </ul>
-          </ScrollAnimation>
+            </ScrollAnimation>
+          </ul>
         </div>
 
         <div className="center-grid center1">
-          <img src={img} className="sign" alt="" />
+          <ScrollAnimation
+            duration={0.75}
+            animateOnce={true}
+            animateIn="animate__slideInDown"
+          >
+            <img src={img} className="sign" alt="" />
+          </ScrollAnimation>
           <div className="line"></div>
         </div>
         <div className="mobile-none"></div>
         <div className="mobile-none"></div>
         <div className="center-grid center2">
-          <img src={img} className="sign" alt="" />
+          <ScrollAnimation
+            duration={0.75}
+            animateOnce={true}
+            animateIn="animate__slideInDown"
+          >
+            <img src={img} className="sign" alt="" />
+          </ScrollAnimation>
           <div className="line"></div>
         </div>
 
@@ -90,7 +145,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeIn"
+            animateIn="animate__fadeInDown"
             className="flex"
           >
             <p className="grid-desc">
@@ -116,7 +171,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeIn"
+            animateIn="animate__fadeInDown"
             className="flex"
           >
             <p className="grid-desc">
@@ -130,13 +185,25 @@ function Roadmap() {
         </div>
 
         <div className="center-grid center3">
-          <img src={img} className="sign" alt="" />
+          <ScrollAnimation
+            duration={0.75}
+            animateOnce={true}
+            animateIn="animate__slideInDown"
+          >
+            <img src={img} className="sign" alt="" />
+          </ScrollAnimation>
           <div className="line"></div>
         </div>
         <div className="mobile-none"></div>
         <div className="mobile-none"></div>
         <div className="center-grid center4">
-          <img src={img} className="sign" alt="" />
+          <ScrollAnimation
+            duration={0.75}
+            animateOnce={true}
+            animateIn="animate__slideInDown"
+          >
+            <img src={img} className="sign" alt="" />
+          </ScrollAnimation>
           <div className="line"></div>
         </div>
         <div className="right-grid">
@@ -153,7 +220,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeIn"
+            animateIn="animate__fadeInDown"
             className="flex"
           >
             <p className="grid-desc">
@@ -183,7 +250,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeIn"
+            animateIn="animate__fadeInDown"
             className="flex"
           >
             <p className="grid-desc">
@@ -196,14 +263,26 @@ function Roadmap() {
         </div>
 
         <div className="center-grid center5">
-          <img src={img} className="sign" alt="" />
+          <ScrollAnimation
+            duration={0.75}
+            animateOnce={true}
+            animateIn="animate__slideInDown"
+          >
+            <img src={img} className="sign" alt="" />
+          </ScrollAnimation>
           <div className="line"></div>
         </div>
         <div className="mobile-none"></div>
         <div className="mobile-none"></div>
 
         <div className="center-grid center6">
-          <img src={img} className="sign" alt="" />
+          <ScrollAnimation
+            duration={0.75}
+            animateOnce={true}
+            animateIn="animate__slideInDown"
+          >
+            <img src={img} className="sign" alt="" />
+          </ScrollAnimation>
         </div>
         <div className="right-grid">
           <ScrollAnimation
@@ -220,7 +299,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeIn"
+            animateIn="animate__fadeInDown"
             className="flex"
           >
             <p className="grid-desc">

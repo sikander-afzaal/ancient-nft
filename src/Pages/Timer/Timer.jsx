@@ -61,16 +61,24 @@ function Timer() {
       >
         <img src={bg} alt="" />
 
-        <ScrollAnimation
-          duration={1.5}
-          delay={500}
-          animateOnce={true}
-          className="abs-text"
-          animateIn="animate__bounceInLeft"
-          animatePreScroll={false}
-        >
-          <p>Mint countdown ends in..</p>
-          <div className="timer-div">
+        <div className="abs-text">
+          <ScrollAnimation
+            duration={1.5}
+            delay={500}
+            animateOnce={true}
+            animateIn="animate__fadeInDown"
+            animatePreScroll={false}
+          >
+            <p>Mint countdown ends in..</p>
+          </ScrollAnimation>
+          <ScrollAnimation
+            duration={1.5}
+            delay={700}
+            animateOnce={true}
+            className="timer-div"
+            animateIn="animate__fadeInDown"
+            animatePreScroll={false}
+          >
             <div className="timer-box">
               <h1>{timerDays}</h1>
               <p>Days</p>
@@ -90,38 +98,67 @@ function Timer() {
               <h1>{timerSeconds}</h1>
               <p>Seconds</p>
             </div>
-          </div>
-          <div className="button-div">
+          </ScrollAnimation>
+          <ScrollAnimation
+            duration={1.5}
+            delay={1000}
+            animateOnce={true}
+            className="button-div"
+            animateIn="animate__fadeInDown"
+            animatePreScroll={false}
+          >
             <button className="timer-btn">Mint now</button>
             <button className="timer-btn">Connect wallet</button>
-          </div>
-        </ScrollAnimation>
+          </ScrollAnimation>
+        </div>
       </ScrollAnimation>
 
-      <ScrollAnimation
-        duration={1.5}
-        animateOnce={true}
-        className="bottom-timer"
-        animateIn="animate__fadeIn"
-        animatePreScroll={false}
-      >
-        <div className="sale-box">
+      <div className="bottom-timer">
+        <ScrollAnimation
+          duration={1.5}
+          delay={300}
+          animateOnce={true}
+          className="sale-box"
+          animateIn="animate__fadeInDown"
+          animatePreScroll={false}
+        >
           <h2>Public Sale</h2>
           <p>TBA</p>
-        </div>
-        <div className="sale-box">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          delay={600}
+          animateOnce={true}
+          className="sale-box"
+          animateIn="animate__fadeInDown"
+          animatePreScroll={false}
+        >
           <h2>Pre-Sale</h2>
           <p>TBA</p>
-        </div>
-        <div className="sale-box">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          delay={900}
+          animateOnce={true}
+          className="sale-box"
+          animateIn="animate__fadeInDown"
+          animatePreScroll={false}
+        >
           <h2>Mint Price</h2>
           <p>TBA</p>
-        </div>
-        <div className="sale-box">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          delay={1200}
+          animateOnce={true}
+          className="sale-box"
+          animateIn="animate__fadeInDown"
+          animatePreScroll={false}
+        >
           <h2>Gas Fee</h2>
           <p>TBA</p>
-        </div>
-      </ScrollAnimation>
+        </ScrollAnimation>
+      </div>
     </div>
   );
 }

@@ -51,144 +51,171 @@ function Collection() {
         <h1 className="heading">Pharaoh Collection</h1>
         <p>Welcome to the Pharaoh God’s Club Collections</p>
       </ScrollAnimation>
-      <ScrollAnimation
-        duration={1.5}
-        delay={300}
-        animateIn="animate__zoomInRight"
-        className="slide-div"
-        animateOnce={true}
-      >
-        <h1 className="slide-head"> ( Male Pharaoh God )</h1>
-        <Splide
-          options={{
-            autoplay: "play",
-            type: "loop",
-            rewind: true,
-            perPage: 3,
-            height: "auto",
-            gap: "0.5rem",
-            width: "80%",
-            arrows: false,
-            pagination: true,
-            perMove: 3,
-            drag: true,
-            breakpoints: {
-              1398: {
-                width: "100%",
-              },
-              912: {
-                perPage: 2,
-              },
-              724: {
-                perPage: 1,
-              },
-            },
-          }}
+      <div className="slide-div">
+        <ScrollAnimation
+          duration={1.5}
+          delay={500}
+          animateIn="animate__fadeInDown"
+          animateOnce={true}
         >
-          {data.list1.map((elem, key) => {
-            return (
-              <SplideSlide>
-                <div className="nft-box" key={key}>
-                  <img className="nft-img" src={elem.img} alt="Image 1" />
-                  <p>{elem.name}</p>
-                </div>
-              </SplideSlide>
-            );
-          })}
-        </Splide>{" "}
-      </ScrollAnimation>
-      <ScrollAnimation
-        duration={1.5}
-        delay={300}
-        animateOnce={true}
-        animateIn="animate__zoomInLeft"
-        className="slide-div"
-      >
-        <h1 className="slide-head"> ( Female Pharaoh God )</h1>
-        <Splide
-          options={{
-            autoplay: "play",
-            type: "loop",
-            rewind: true,
-            perPage: 3,
-            height: "auto",
-            gap: "0.5rem",
-            width: "80%",
-            arrows: false,
-            pagination: true,
-            perMove: 3,
-            drag: true,
-            breakpoints: {
-              1398: {
-                width: "100%",
-              },
-              912: {
-                perPage: 2,
-              },
-              724: {
-                perPage: 1,
-              },
-            },
-          }}
+          <h1 className="slide-head"> ( Male Pharaoh God )</h1>
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          delay={1000}
+          animateIn="animate__zoomInRight"
+          className="slider"
+          animateOnce={true}
         >
-          {data.list1.map((elem, key) => {
-            return (
-              <SplideSlide>
-                <div className="nft-box" key={key}>
-                  <img className="nft-img" src={elem.img} alt="Image 1" />
-                  <p>{elem.name}</p>
-                </div>
-              </SplideSlide>
-            );
-          })}
-        </Splide>{" "}
-      </ScrollAnimation>
-      <ScrollAnimation
-        duration={1.5}
-        delay={300}
-        animateOnce={true}
-        animateIn="animate__zoomInRight"
-        className="slide-div"
-      >
-        <h1 className="slide-head"> ( Mutated Pharaoh God )</h1>
-        <Splide
-          options={{
-            autoplay: "play",
-            type: "loop",
-            rewind: true,
-            perPage: 3,
-            height: "auto",
-            gap: "0.5rem",
-            width: "80%",
-            arrows: false,
-            pagination: true,
-            perMove: 3,
-            drag: true,
-            breakpoints: {
-              1398: {
-                width: "100%",
+          <Splide
+            options={{
+              autoplay: "play",
+              type: "loop",
+              rewind: true,
+              perPage: 3,
+              height: "auto",
+              gap: "0.5rem",
+              width: "80%",
+              arrows: false,
+              pagination: true,
+              perMove: 3,
+              drag: true,
+              breakpoints: {
+                1398: {
+                  width: "100%",
+                },
+                912: {
+                  perPage: 2,
+                },
+                724: {
+                  perPage: 1,
+                },
               },
-              912: {
-                perPage: 2,
-              },
-              724: {
-                perPage: 1,
-              },
-            },
-          }}
+            }}
+          >
+            {data.list1.map((elem, key) => {
+              return (
+                <SplideSlide>
+                  <div className="nft-box" key={key}>
+                    <img className="nft-img" src={elem.img} alt="Image 1" />
+                    <p>{elem.name}</p>
+                  </div>
+                </SplideSlide>
+              );
+            })}
+          </Splide>
+        </ScrollAnimation>
+      </div>
+      <div className="slide-div">
+        <ScrollAnimation
+          duration={1.5}
+          delay={500}
+          animateIn="animate__fadeInDown"
+          animateOnce={true}
         >
-          {data.list1.map((elem, key) => {
-            return (
-              <SplideSlide>
-                <div className="nft-box" key={key}>
-                  <img className="nft-img" src={elem.img} alt="Image 1" />
-                  <p>{elem.name}</p>
-                </div>
-              </SplideSlide>
-            );
-          })}
-        </Splide>{" "}
-      </ScrollAnimation>
+          <h1 className="slide-head"> ( Female Pharaoh God )</h1>
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          delay={1000}
+          animateIn="animate__zoomInLeft"
+          className="slider"
+          animateOnce={true}
+        >
+          <Splide
+            options={{
+              autoplay: "play",
+              type: "loop",
+              rewind: true,
+              perPage: 3,
+              height: "auto",
+              gap: "0.5rem",
+              width: "80%",
+              arrows: false,
+              pagination: true,
+              perMove: 3,
+              drag: true,
+              breakpoints: {
+                1398: {
+                  width: "100%",
+                },
+                912: {
+                  perPage: 2,
+                },
+                724: {
+                  perPage: 1,
+                },
+              },
+            }}
+          >
+            {data.list1.map((elem, key) => {
+              return (
+                <SplideSlide>
+                  <div className="nft-box" key={key}>
+                    <img className="nft-img" src={elem.img} alt="Image 1" />
+                    <p>{elem.name}</p>
+                  </div>
+                </SplideSlide>
+              );
+            })}
+          </Splide>
+        </ScrollAnimation>
+      </div>
+      <div className="slide-div">
+        <ScrollAnimation
+          duration={1.5}
+          delay={500}
+          animateIn="animate__fadeInDown"
+          animateOnce={true}
+        >
+          <h1 className="slide-head"> ( Mutated Pharaoh God )</h1>
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          delay={1000}
+          animateIn="animate__zoomInRight"
+          className="slider"
+          animateOnce={true}
+        >
+          <Splide
+            options={{
+              autoplay: "play",
+              type: "loop",
+              rewind: true,
+              perPage: 3,
+              height: "auto",
+              gap: "0.5rem",
+              width: "80%",
+              arrows: false,
+              pagination: true,
+              perMove: 3,
+              drag: true,
+              breakpoints: {
+                1398: {
+                  width: "100%",
+                },
+                912: {
+                  perPage: 2,
+                },
+                724: {
+                  perPage: 1,
+                },
+              },
+            }}
+          >
+            {data.list1.map((elem, key) => {
+              return (
+                <SplideSlide>
+                  <div className="nft-box" key={key}>
+                    <img className="nft-img" src={elem.img} alt="Image 1" />
+                    <p>{elem.name}</p>
+                  </div>
+                </SplideSlide>
+              );
+            })}
+          </Splide>
+        </ScrollAnimation>
+      </div>
     </div>
   );
 }

@@ -35,7 +35,7 @@ function About() {
                 duration={1}
                 animateOnce={true}
                 delay={1000}
-                animateIn="animate__bounceInUp"
+                animateIn="animate__fadeInUp"
               >
                 <p>
                   Pharaoh God's club is a set of 5555 custom designed NFTS made
@@ -49,7 +49,7 @@ function About() {
                   duration={1}
                   animateOnce={true}
                   delay={1200}
-                  animateIn="animate__bounceInUp"
+                  animateIn="animate__fadeInUp"
                 >
                   <li> Female pharaoh God's</li>
                 </ScrollAnimation>
@@ -58,7 +58,7 @@ function About() {
                   duration={1}
                   animateOnce={true}
                   delay={1400}
-                  animateIn="animate__bounceInUp"
+                  animateIn="animate__fadeInUp"
                 >
                   <li> Male pharaoh God's</li>
                 </ScrollAnimation>
@@ -66,8 +66,8 @@ function About() {
                   animatePreScroll={false}
                   duration={1}
                   animateOnce={true}
-                  delay={1600}
-                  animateIn="animate__bounceInUp"
+                  delay={1500}
+                  animateIn="animate__fadeInUp"
                 >
                   <li>Mutated God's</li>
                 </ScrollAnimation>
@@ -76,8 +76,8 @@ function About() {
                 animatePreScroll={false}
                 duration={1}
                 animateOnce={true}
-                delay={1800}
-                animateIn="animate__bounceInUp"
+                delay={1600}
+                animateIn="animate__fadeInUp"
               >
                 <p>
                   Each of them have unique utilities like providing staking
@@ -90,8 +90,8 @@ function About() {
               animatePreScroll={false}
               duration={1}
               animateOnce={true}
-              delay={2000}
-              animateIn="animate__bounceInUp"
+              delay={1650}
+              animateIn="animate__fadeInUp"
             >
               <p className="yellow-abt">
                 Come and join us in this fabulous adventure and explore our
