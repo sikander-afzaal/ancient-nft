@@ -31,14 +31,14 @@ function Faq() {
         <h1 className="heading">Frequently Asked Questions</h1>
         <p>Let’s checkout answers of your questions</p>
       </ScrollAnimation>
-      <ScrollAnimation
-        duration={1.5}
-        animateOnce={true}
-        className="faq-div"
-        delay={1000}
-        animateIn="animate__bounceInUp"
-      >
-        <div className="faq-q-div">
+      <div className="faq-div">
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="faq-q-div"
+          delay={800}
+          animateIn="animate__fadeInUp"
+        >
           <div
             data-num={0}
             onClick={clickHandler}
@@ -54,8 +54,15 @@ function Faq() {
               rem est fuga!
             </p>
           </div>
-        </div>
-        <div className="faq-q-div">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="faq-q-div"
+          delay={950}
+          animateIn="animate__fadeInUp"
+        >
+          {" "}
           <div
             data-num={1}
             onClick={clickHandler}
@@ -71,8 +78,14 @@ function Faq() {
               rem est fuga!
             </p>
           </div>
-        </div>
-        <div className="faq-q-div">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="faq-q-div"
+          delay={1100}
+          animateIn="animate__fadeInUp"
+        >
           <div
             data-num={2}
             onClick={clickHandler}
@@ -90,8 +103,14 @@ function Faq() {
               rem est fuga!
             </p>
           </div>
-        </div>
-        <div className="faq-q-div">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="faq-q-div"
+          delay={1250}
+          animateIn="animate__fadeInUp"
+        >
           <div
             data-num={3}
             onClick={clickHandler}
@@ -109,8 +128,15 @@ function Faq() {
               rem est fuga!
             </p>
           </div>
-        </div>
-        <div className="faq-q-div">
+        </ScrollAnimation>
+        <ScrollAnimation
+          duration={1.5}
+          animateOnce={true}
+          className="faq-q-div"
+          delay={1300}
+          offset={50}
+          animateIn="animate__fadeInUp"
+        >
           <div
             data-num={4}
             onClick={clickHandler}
@@ -126,8 +152,8 @@ function Faq() {
               rem est fuga!
             </p>
           </div>
-        </div>
-      </ScrollAnimation>
+        </ScrollAnimation>
+      </div>
     </div>
   );
 }

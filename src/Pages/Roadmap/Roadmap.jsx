@@ -34,7 +34,7 @@ function Roadmap() {
               duration={0.75}
               delay={800}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>Pharaoh gods club will be launching in april 2022</li>
             </ScrollAnimation>
@@ -42,7 +42,7 @@ function Roadmap() {
               duration={0.75}
               delay={900}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>5,555 unique PGC gods will be joined into this journey</li>
             </ScrollAnimation>
@@ -50,7 +50,7 @@ function Roadmap() {
               duration={0.75}
               delay={1000}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>
                 1500 will be a whitelist mint for early supporters and OG'S
@@ -61,7 +61,7 @@ function Roadmap() {
               duration={0.75}
               delay={1100}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>
                 4000 will be available for Public mint 48 hours after WL sale
@@ -71,7 +71,7 @@ function Roadmap() {
               duration={0.75}
               delay={1200}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>
                 72 hours after public sale, the mystery of the pharaohs will be
@@ -82,7 +82,7 @@ function Roadmap() {
               duration={0.75}
               delay={1300}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>
                 We have 20 legendary God's those who mint one of the gods will
@@ -96,7 +96,7 @@ function Roadmap() {
               duration={0.75}
               delay={1400}
               animateOnce={true}
-              animateIn="animate__fadeInDown"
+              animateIn="animate__fadeInUp"
             >
               <li>
                 5% of mint sales will be given to a charity that helps affected
@@ -145,7 +145,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeInDown"
+            animateIn="animate__fadeInUp"
             className="flex"
           >
             <p className="grid-desc">
@@ -171,7 +171,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeInDown"
+            animateIn="animate__fadeInUp"
             className="flex"
           >
             <p className="grid-desc">
@@ -220,7 +220,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeInDown"
+            animateIn="animate__fadeInUp"
             className="flex"
           >
             <p className="grid-desc">
@@ -250,7 +250,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeInDown"
+            animateIn="animate__fadeInUp"
             className="flex"
           >
             <p className="grid-desc">
@@ -299,7 +299,7 @@ function Roadmap() {
             duration={0.75}
             delay={800}
             animateOnce={true}
-            animateIn="animate__fadeInDown"
+            animateIn="animate__fadeInUp"
             className="flex"
           >
             <p className="grid-desc">
