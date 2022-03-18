@@ -71,11 +71,7 @@
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
-/* .top-grid-text p span {
-  background: transparent;
-  -webkit-background-clip: none;
-  -webkit-text-fill-color: none;
-} */
+
 .left-grid ul {
   display: flex;
   justify-content: center;
@@ -89,6 +85,7 @@
   font-family: var(--poppins);
   font-weight: 500;
   line-height: 1.7;
+  text-align: center;
 }
 .line {
   width: 3px;
