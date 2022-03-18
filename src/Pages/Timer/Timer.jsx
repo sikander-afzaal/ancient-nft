@@ -63,7 +63,7 @@ function Timer() {
 
         <ScrollAnimation
           duration={1.5}
-          delay={1000}
+          delay={500}
           animateOnce={true}
           className="abs-text"
           animateIn="animate__bounceInLeft"

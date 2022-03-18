@@ -18,37 +18,88 @@ function About() {
         <p>Our main motive and goal you all may need to know about</p>
       </ScrollAnimation>
       <div className="bot-about">
-        <ScrollAnimation
-          animatePreScroll={false}
-          duration={1.5}
-          animateOnce={true}
-          className="left-about"
-          animateIn="animate__slideInLeft"
-        >
+        <div className="left-about">
           <div className="wrapper-about">
-            <h1 className="heading">What is Pharaoh God’s club</h1>
+            <ScrollAnimation
+              animatePreScroll={false}
+              duration={1}
+              animateOnce={true}
+              animateIn="animate__slideInLeft"
+            >
+              <h1 className="heading">What is Pharaoh God’s club</h1>
+            </ScrollAnimation>
+
             <div className="text-div-about">
-              <p>
-                Pharaoh God's club is a set of 5555 custom designed NFTS made in
-                3 category.
-              </p>
+              <ScrollAnimation
+                animatePreScroll={false}
+                duration={1}
+                animateOnce={true}
+                delay={1000}
+                animateIn="animate__bounceInUp"
+              >
+                <p>
+                  Pharaoh God's club is a set of 5555 custom designed NFTS made
+                  in 3 category.
+                </p>
+              </ScrollAnimation>
+
               <ul>
-                <li> Female pharaoh God's</li>
-                <li> Male pharaoh God's</li>
-                <li>Mutated God's</li>
+                <ScrollAnimation
+                  animatePreScroll={false}
+                  duration={1}
+                  animateOnce={true}
+                  delay={1200}
+                  animateIn="animate__bounceInUp"
+                >
+                  <li> Female pharaoh God's</li>
+                </ScrollAnimation>
+                <ScrollAnimation
+                  animatePreScroll={false}
+                  duration={1}
+                  animateOnce={true}
+                  delay={1400}
+                  animateIn="animate__bounceInUp"
+                >
+                  <li> Male pharaoh God's</li>
+                </ScrollAnimation>
+                <ScrollAnimation
+                  animatePreScroll={false}
+                  duration={1}
+                  animateOnce={true}
+                  delay={1600}
+                  animateIn="animate__bounceInUp"
+                >
+                  <li>Mutated God's</li>
+                </ScrollAnimation>
               </ul>
-              <p>
-                Each of them have unique utilities like providing staking
-                features and earning god coin, our native currency that will be
-                used in our onchain strategy game coming September 2022
-              </p>
+              <ScrollAnimation
+                animatePreScroll={false}
+                duration={1}
+                animateOnce={true}
+                delay={1800}
+                animateIn="animate__bounceInUp"
+              >
+                <p>
+                  Each of them have unique utilities like providing staking
+                  features and earning god coin, our native currency that will
+                  be used in our onchain strategy game coming September 2022
+                </p>
+              </ScrollAnimation>
             </div>
-            <p className="yellow-abt">
-              Come and join us in this fabulous adventure and explore our NFT’s
-              Collection
-            </p>
+            <ScrollAnimation
+              animatePreScroll={false}
+              duration={1}
+              animateOnce={true}
+              delay={2000}
+              animateIn="animate__bounceInUp"
+            >
+              <p className="yellow-abt">
+                Come and join us in this fabulous adventure and explore our
+                NFT’s Collection
+              </p>
+            </ScrollAnimation>
           </div>
-        </ScrollAnimation>
+        </div>
         <ScrollAnimation
           animatePreScroll={false}
           duration={1.5}
