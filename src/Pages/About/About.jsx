@@ -12,7 +12,7 @@ function About() {
         duration={1.5}
         animateOnce={true}
         className="top-about"
-        animateIn="animate__slideInDown"
+        animateIn="animate__jackInTheBox"
       >
         <h1 className="heading">About Us</h1>
         <p>Our main motive and goal you all may need to know about</p>
@@ -54,7 +54,7 @@ function About() {
           duration={1.5}
           animateOnce={true}
           className="right-about"
-          animateIn="animate__slideInRight"
+          animateIn="animate__flipInX"
         >
           <img src={img} alt="" />
         </ScrollAnimation>

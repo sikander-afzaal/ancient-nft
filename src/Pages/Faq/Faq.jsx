@@ -26,12 +26,18 @@ function Faq() {
         duration={1.5}
         animateOnce={true}
         className="heading-div"
-        animateIn="animate__slideInDown"
+        animateIn="animate__jackInTheBox"
       >
         <h1 className="heading">Frequently Asked Questions</h1>
         <p>Let’s checkout answers of your questions</p>
       </ScrollAnimation>
-      <div className="faq-div">
+      <ScrollAnimation
+        duration={1.5}
+        animateOnce={true}
+        className="faq-div"
+        delay={1000}
+        animateIn="animate__bounceInUp"
+      >
         <div className="faq-q-div">
           <div
             data-num={0}
@@ -121,7 +127,7 @@ function Faq() {
             </p>
           </div>
         </div>
-      </div>
+      </ScrollAnimation>
     </div>
   );
 }

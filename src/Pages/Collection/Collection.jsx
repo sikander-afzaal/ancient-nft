@@ -46,12 +46,18 @@ function Collection() {
         duration={1.5}
         animateOnce={true}
         className="heading-div"
-        animateIn="animate__slideInDown"
+        animateIn="animate__jackInTheBox"
       >
         <h1 className="heading">Pharaoh Collection</h1>
         <p>Welcome to the Pharaoh God’s Club Collections</p>
       </ScrollAnimation>
-      <div className="slide-div">
+      <ScrollAnimation
+        duration={1.5}
+        delay={300}
+        animateIn="animate__zoomInRight"
+        className="slide-div"
+        animateOnce={true}
+      >
         <h1 className="slide-head"> ( Male Pharaoh God )</h1>
         <Splide
           options={{
@@ -73,7 +79,7 @@ function Collection() {
               912: {
                 perPage: 2,
               },
-              600: {
+              724: {
                 perPage: 1,
               },
             },
@@ -90,10 +96,15 @@ function Collection() {
             );
           })}
         </Splide>{" "}
-      </div>
-      <div className="slide-div">
+      </ScrollAnimation>
+      <ScrollAnimation
+        duration={1.5}
+        delay={300}
+        animateOnce={true}
+        animateIn="animate__zoomInLeft"
+        className="slide-div"
+      >
         <h1 className="slide-head"> ( Female Pharaoh God )</h1>
-
         <Splide
           options={{
             autoplay: "play",
@@ -114,7 +125,7 @@ function Collection() {
               912: {
                 perPage: 2,
               },
-              600: {
+              724: {
                 perPage: 1,
               },
             },
@@ -130,11 +141,16 @@ function Collection() {
               </SplideSlide>
             );
           })}
-        </Splide>
-      </div>
-      <div className="slide-div">
+        </Splide>{" "}
+      </ScrollAnimation>
+      <ScrollAnimation
+        duration={1.5}
+        delay={300}
+        animateOnce={true}
+        animateIn="animate__zoomInRight"
+        className="slide-div"
+      >
         <h1 className="slide-head"> ( Mutated Pharaoh God )</h1>
-
         <Splide
           options={{
             autoplay: "play",
@@ -155,7 +171,7 @@ function Collection() {
               912: {
                 perPage: 2,
               },
-              600: {
+              724: {
                 perPage: 1,
               },
             },
@@ -171,8 +187,8 @@ function Collection() {
               </SplideSlide>
             );
           })}
-        </Splide>
-      </div>
+        </Splide>{" "}
+      </ScrollAnimation>
     </div>
   );
 }

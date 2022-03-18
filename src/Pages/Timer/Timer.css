@@ -226,3 +226,42 @@
     max-width: 16%;
   }
 }
+@media screen and (max-width: 610px) {
+  .triangle-div img {
+    display: none;
+  }
+  .abs-text {
+    position: static;
+    margin-top: 3rem;
+  }
+  .timer-box h1,
+  .timer-div p {
+    background: linear-gradient(91.14deg, #fbda37 -117.28%, #fce5ab 99.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .timer-box h1 {
+    font-size: 2.5rem;
+  }
+  .timer-box p {
+    font-family: var(--poppins);
+    color: #5a5a4f;
+    background: transparent;
+    -webkit-text-fill-color: white;
+    font-size: 0.7rem;
+  }
+  .timer-btn {
+    background-color: #fce5ab;
+    color: #050501;
+  }
+  .bottom-timer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sale-box {
+    gap: 10px;
+  }
+  .timer {
+    padding-bottom: 0rem;
+  }
+}

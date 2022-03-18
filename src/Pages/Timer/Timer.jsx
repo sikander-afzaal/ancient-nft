@@ -60,7 +60,15 @@ function Timer() {
         animatePreScroll={false}
       >
         <img src={bg} alt="" />
-        <div className="abs-text">
+
+        <ScrollAnimation
+          duration={1.5}
+          delay={1000}
+          animateOnce={true}
+          className="abs-text"
+          animateIn="animate__bounceInLeft"
+          animatePreScroll={false}
+        >
           <p>Mint countdown ends in..</p>
           <div className="timer-div">
             <div className="timer-box">
@@ -87,10 +95,16 @@ function Timer() {
             <button className="timer-btn">Mint now</button>
             <button className="timer-btn">Connect wallet</button>
           </div>
-        </div>
+        </ScrollAnimation>
       </ScrollAnimation>
 
-      <div className="bottom-timer">
+      <ScrollAnimation
+        duration={1.5}
+        animateOnce={true}
+        className="bottom-timer"
+        animateIn="animate__fadeIn"
+        animatePreScroll={false}
+      >
         <div className="sale-box">
           <h2>Public Sale</h2>
           <p>TBA</p>
@@ -107,7 +121,7 @@ function Timer() {
           <h2>Gas Fee</h2>
           <p>TBA</p>
         </div>
-      </div>
+      </ScrollAnimation>
     </div>
   );
 }

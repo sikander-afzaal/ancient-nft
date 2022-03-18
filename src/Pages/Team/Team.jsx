@@ -10,7 +10,7 @@ function Team() {
         duration={1.5}
         animateOnce={true}
         className="heading-div"
-        animateIn="animate__slideInDown"
+        animateIn="animate__jackInTheBox"
       >
         <h1 className="heading">Our team</h1>
         <p>Let’s explore our team member</p>
@@ -19,21 +19,10 @@ function Team() {
       <div className="team-div">
         <ScrollAnimation
           delay={500}
-          duration={1.5}
+          duration={1}
           animateOnce={true}
           className="team-box"
-          animateIn="animate__slideInLeft"
-        >
-          <img src={img} alt="" />
-          <h1>Name</h1>
-          <p>Founder</p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          delay={1000}
-          duration={1.5}
-          animateOnce={true}
-          className="team-box centerBox"
-          animateIn="animate__slideInDown"
+          animateIn="animate__lightSpeedInLeft"
         >
           <img src={img} alt="" />
           <h1>Name</h1>
@@ -41,10 +30,21 @@ function Team() {
         </ScrollAnimation>
         <ScrollAnimation
           delay={1500}
-          duration={1.5}
+          duration={1}
+          animateOnce={true}
+          className="team-box centerBox"
+          animateIn="animate__lightSpeedInLeft"
+        >
+          <img src={img} alt="" />
+          <h1>Name</h1>
+          <p>Founder</p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          delay={2000}
+          duration={1}
           animateOnce={true}
           className="team-box"
-          animateIn="animate__slideInRight"
+          animateIn="animate__lightSpeedInLeft"
         >
           <img src={img} alt="" />
           <h1>Name</h1>

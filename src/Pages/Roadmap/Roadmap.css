@@ -34,6 +34,11 @@
 .right-grid {
   grid-template-columns: 3/4;
 }
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .left-grid,
 .right-grid {
   display: flex;
