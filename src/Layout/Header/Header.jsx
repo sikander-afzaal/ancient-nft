@@ -8,6 +8,7 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import openSea from "../../Assets/openSea.svg";
 import twitter from "../../Assets/twitter.svg";
 import discord from "../../Assets/discord.svg";
+import pdf from "../../Assets/pdf.pdf";
 function Header() {
   // to open navbar in mobile view
   const [open, setOpen] = useState(false);
@@ -100,7 +101,8 @@ function Header() {
             setOpen(false);
             document.querySelector("body").classList.remove("overflow");
           }}
-          href="#"
+          href={pdf}
+          download="Pharaoh Gods club"
         >
           <button className="btn-header whitepaper">Whitepaper</button>
         </a>
