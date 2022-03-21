@@ -124,6 +124,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 }
 .sale-box h2 {
   font-family: var(--amita);
@@ -131,6 +132,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
+}
+.small {
+  font-size: 1rem;
 }
 .sale-box p {
   color: #fff8e7;
@@ -162,6 +166,15 @@
   }
   .sale-box p {
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 946px) {
+  .bottom-timer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sale-box {
+    gap: 10px;
   }
 }
 @media screen and (max-width: 878px) {

@@ -122,8 +122,8 @@ function Timer() {
           animateIn="animate__fadeInDown"
           animatePreScroll={false}
         >
-          <h2>Public Sale</h2>
-          <p>0.08</p>
+          <h2>Whitelist Mint Price</h2>
+          <p>0.05</p>
         </ScrollAnimation>
         <ScrollAnimation
           duration={1.5}
@@ -133,8 +133,10 @@ function Timer() {
           animateIn="animate__fadeInDown"
           animatePreScroll={false}
         >
-          <h2>Pre-Sale</h2>
-          <p>TBA</p>
+          <h2>Public Sale</h2>
+          <p>
+            0.08 <span className="small">(max 5 mints per wallet)</span>{" "}
+          </p>
         </ScrollAnimation>
         <ScrollAnimation
           duration={1.5}
@@ -155,8 +157,10 @@ function Timer() {
           animateIn="animate__fadeInDown"
           animatePreScroll={false}
         >
-          <h2>Whitelist Mint Price</h2>
-          <p>0.05</p>
+          <h2>Pre-Sale</h2>
+          <p>
+            <span className="small">(max 10 mints per wallet)</span>
+          </p>
         </ScrollAnimation>
       </div>
     </div>
