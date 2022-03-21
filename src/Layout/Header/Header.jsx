@@ -15,18 +15,18 @@ function Header() {
   // to show the black background when we scroll
   const [show, setShow] = useState(false);
   // scroll to add background color ------------------------
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 70) {
-        setShow(true);
-      } else {
-        setShow(false);
-      }
-    });
-    return () => {
-      window.removeEventListener("scroll");
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (window.scrollY > 70) {
+  //       setShow(true);
+  //     } else {
+  //       setShow(false);
+  //     }
+  //   });
+  //   return () => {
+  //     window.removeEventListener("scroll");
+  //   };
+  // }, []);
   // scroll to add background color ------------------------
   return (
     <div className={`header ${open ? "open" : ""} ${show && "black"}`}>

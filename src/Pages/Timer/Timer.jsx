@@ -163,6 +163,10 @@ function Timer() {
           </p>
         </ScrollAnimation>
       </div>
+      <p className="dates">
+        Dates are subjected to changes please join the discord for all latest
+        updates and announcements
+      </p>
     </div>
   );
 }
