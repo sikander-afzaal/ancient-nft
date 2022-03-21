@@ -11,7 +11,7 @@ function Timer() {
   const [timerSeconds, setTimerSeconds] = useState("00");
   let interval = useRef();
   const startTimer = () => {
-    let end = new Date("5/15/2022 3:00 PM");
+    let end = new Date("4/25/2022 00:00 PM");
     interval = setInterval(() => {
       let _second = 1000;
       let _minute = _second * 60;
@@ -123,7 +123,7 @@ function Timer() {
           animatePreScroll={false}
         >
           <h2>Public Sale</h2>
-          <p>TBA</p>
+          <p>0.08</p>
         </ScrollAnimation>
         <ScrollAnimation
           duration={1.5}
@@ -155,8 +155,8 @@ function Timer() {
           animateIn="animate__fadeInDown"
           animatePreScroll={false}
         >
-          <h2>Gas Fee</h2>
-          <p>TBA</p>
+          <h2>Whitelist Mint Price</h2>
+          <p>0.05</p>
         </ScrollAnimation>
       </div>
     </div>
