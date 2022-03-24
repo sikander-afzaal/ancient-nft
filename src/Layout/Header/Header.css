@@ -160,6 +160,10 @@ nav {
     overflow-x: visible;
     overflow-y: visible;
   }
+  .fixed {
+    position: fixed;
+    top: 0;
+  }
 
   nav {
     flex-direction: column;

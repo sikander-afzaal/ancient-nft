@@ -29,7 +29,7 @@ function Header() {
   // }, []);
   // scroll to add background color ------------------------
   return (
-    <div className={`header ${open ? "open" : ""} ${show && "black"}`}>
+    <div className={`header ${open ? "open fixed" : ""} ${show && "black"}`}>
       <a
         style={{ textDecoration: "none", color: "white" }}
         className="header-left"
