@@ -12,24 +12,9 @@ import pdf from "../../Assets/pdf.pdf";
 function Header() {
   // to open navbar in mobile view
   const [open, setOpen] = useState(false);
-  // to show the black background when we scroll
-  const [show, setShow] = useState(false);
-  // scroll to add background color ------------------------
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     if (window.scrollY > 70) {
-  //       setShow(true);
-  //     } else {
-  //       setShow(false);
-  //     }
-  //   });
-  //   return () => {
-  //     window.removeEventListener("scroll");
-  //   };
-  // }, []);
-  // scroll to add background color ------------------------
+
   return (
-    <div className={`header ${open ? "open fixed" : ""} ${show && "black"}`}>
+    <div className={`header ${open ? "open fixed" : ""}`}>
       <a
         style={{ textDecoration: "none", color: "white" }}
         className="header-left"
